@@ -1,0 +1,18 @@
+{% extends "shared/base.html" %}
+{% load staticfiles %}
+{% block title  %}about{% endblock %}
+{% block content %} 
+<div class="inner-banner-w3ls">
+    </div>
+    <!-- breadcrumbs -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb d-flex justify-content-center bg-theme">
+            <li class="breadcrumb-item">
+                <a href="{% url 'home' %}" class="text-white">Home</a>
+            </li>
+            <li class="breadcrumb-item active text-white font-weight-bold" aria-current="page">Our Expertise</li>
+        </ol>
+    </nav>
+    <!-- //breadcrumbs -->
+
+{% endblock %}

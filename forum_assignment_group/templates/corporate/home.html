@@ -1,0 +1,233 @@
+{% extends "shared/base.html" %}
+{% load staticfiles %}
+{% block title  %}Home{% endblock %}
+{% block content %}
+
+        <div class="slider">
+            <ul class="rslides" id="slider">
+                <li>
+                    <div class="d-flex banner-w3pvt-bg1 common-bg">
+                        <div class="d-flex mx-auto align-items-center justify-content-center flex-column">
+                            <div class="bnr-w3pvt">
+                                <h3>Forum Assignment Group</h3>
+                                <div class="d-flex justify-content-between bnr-sub-txt align-items-center">
+                                    <span></span>
+                                    <p class="text-uppercase text-white">where Minds Meet</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <!-- <div class="row justify-content-between bnr-form-w3ls">
+                                <div class="col-lg-4">
+                                    <h4>A better career is out there. We'll help you find it to use.</h4>
+                                </div>
+                                <div class="col-lg-8">
+                                    <form action="job_list.html" method="post" class="bnr-field">
+                                        <div class="row">
+                                            <div class="col-md-5 form-group mb-md-0">
+                                                <label class="text-capitalize">
+                                                    looking for job
+                                                </label>
+                                                <input class="form-control" type="text" name="name" required=""
+                                                    placeholder="Job title,Keywords">
+                                            </div>
+                                            <div class="col-md-5 mb-md-0 form-group">
+                                                <label class="text-capitalize">
+                                                    place to work
+                                                </label>
+                                                <input class="form-control" type="text" name="place" required=""
+                                                    placeholder="Province">
+                                            </div>
+                                            <div class="col-md-2 d-flex align-items-end">
+                                                <button type="submit" class="btn btn-w3ltd btn-block w-100 bg-theme font-weight-bold text-uppercase"><span
+                                                        class="fa fa-search"></span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- //Slider -->
+    <!--partners  -->
+    <div class="w3ltdits-partners bg-theme" id="partners">
+        <div class="container pt-4">
+            <div class="title-wthree text-center">
+                <h1 class="w3ltd-title">
+                    CORE VALUES
+                </h1>
+                <span></span>
+            </div>
+            <ul class="list-unstyled py-md-5 py-3 partners-icon text-center">
+                <li>
+                   
+                    <img class="fag-img-icons" src="{% static 'images/kaizen.jpg' %}" alt="">
+                    <br>
+                    <h2>Kaizen</h2>
+                </li>
+                <li>
+                    <img class="fag-img-icons" src="{% static 'images/ubuntu.jpg' %}" alt="">
+                    <br>
+                    <h2>Ubuntu</h2>
+                </li>
+                <li>
+                    <img class="fag-img-icons" src="{% static 'images/research.jpg' %}" alt="">
+                    <br>
+                    <h2>Research</h2>
+                </li>
+                <li>
+                    <img class="fag-img-icons" src="{% static 'images/Innovation.jpg' %}" alt="">
+                    <br>
+                    <h2>Innovation</h2>
+                </li>
+                <li>
+                    <img class="fag-img-icons" src="{% static 'images/intergrity.jpg' %}" alt="">
+                    <br>
+                    <h2>Integrity</h2>
+                </li>
+                <!-- <li> -->
+           <!-- <img class="fag-img-icons" src="{% static 'images/kaizen.jpg' %}" alt="">
+                    <br>
+                    <h2>Kaizen</h2>> -->
+            </ul>
+        </div>
+    </div>
+    <!-- //partners -->
+    <!-- <div class="wthreepvt-pos py-md-5 py-5" id="positions">
+            <div class="title-wthree text-center">
+                    <h1 class="w3ltd-title">
+                        OUR EXPERTISE
+                    </h1>
+                    <span></span>
+                </div>
+        <div class="container py-lg-5">
+            <div class="wthreepvt-pos-row row  text-center">
+
+                <div class="col-lg-4 col-sm-6 wthreepvt-pos-grids">
+                    <div class="p-md-5 p-sm-3">
+                        <span class="fa fa-check-square" aria-hidden="true"></span>
+                        <h4 class="mt-2 mb-3">IT &amp; Telecoms Recruitment</h4>
+                        <p>Forum Assignment Group helps clients to recruit the hard to find scarce IT & Telecoms resources. </p>
+                        <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wthreepvt-pos-grids  border-left border-right my-sm-0 my-5">
+                    <div class="p-md-5 p-sm-3">
+                        <span class="fa fa-suitcase" aria-hidden="true"></span>
+                        <h4 class="mt-2 mb-3">Executive Search</h4>
+                        <p>Forum Assignment Group has an Executive Search arm that headhunt for Executive Level roles and..</p>
+                        <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wthreepvt-pos-grids">
+                    <div class="p-md-5 p-sm-3">
+                        <span class="fa fa-thumbs-up" aria-hidden="true"></span>
+                        <h4 class="mt-2 mb-3">Temporary/Contract Placements</h4>
+                        <p>We supply top quality temporary staff in the shortest possible time. Our rich database has an..</p>
+                        <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="wthreepvt-pos-row border-top row text-center pb-lg-5 pt-md-0 pt-5 mt-md-0 mt-sm-5 mt-4">
+                <div class="col-lg-4 col-sm-6 wthreepvt-pos-grids">
+                    <div class="p-md-5 p-sm-3 col-label">
+                        <span class="fa fa-thumb-tack" aria-hidden="true"></span>
+                        <h4 class="mt-2 mb-3">Client Relationship Management</h4>
+                        <p>In this process, we have two clients-employer and potential candidates. With the employer, we use a </p>
+                        <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wthreepvt-pos-grids mt-lg-0 mt-md-3 border-left border-right pt-sm-0 pt-5">
+                    <div class="p-md-5 p-sm-3 col-label">
+                        <span class="fa fa-external-link" aria-hidden="true"></span>
+                        <h4 class="mt-2 mb-3">Commercial Recruitment</h4>
+                        <p>Forum Assignment Group`s Commercial hub has market leaders that have market intelligence to </p>
+                        <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wthreepvt-pos-grids pt-md-0 pt-5">
+                    <div class="p-md-5 p-sm-3 col-label">
+                        <span class="fa fa-cog" aria-hidden="true"></span>
+                        <h4 class="mt-2 mb-3">Engineering Recruitment</h4>
+                        <p>Our Engineering Desk has a team of experts that understand the needs of the industry. They provide </p>
+                        <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="banner-w3pvt-bg4 common-bg">
+<div class="container">
+        <div class="title-wthree text-center" style="padding-top: 2em;">
+                <h1 class="w3ltd-title" style=" color: #fff;font-weight: 600;">
+                    OUR EXPERTISE
+                </h1>
+                <span></span>
+            </div>
+    <div class="row head-row-home text-center">
+    
+            <div class="col-md-4 my-4 home-grid">
+                    <div class="fag-serv-margins fag-serv-bg">
+                <span class="fa fa-info-circle" aria-hidden="true"></span>
+                <h4 class="home-title my-3">IT &amp; Telecoms Recruitment</h4>
+                <p>Forum Assignment Group helps clients to recruit the hard to find scarce IT & Telecoms resources. </p>
+                <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+            </div>
+        </div>
+       
+
+            <div class="col-md-4 my-4 home-grid ">
+                    <div class="fag-serv-margins fag-serv-bg">
+                <span class="fa fa-connectdevelop" aria-hidden="true"></span>
+                <h4 class="home-title my-3">Commercial Recruitment</h4>
+                <p>Forum Assignment Group`s Commercial hub has market leaders that have market intelligence to </p>
+                <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+            </div>
+        </div>
+      
+            <div class="col-md-4 my-4 home-grid">
+                    <div class="fag-serv-margins fag-serv-bg">
+                <span class="fa fa-users" aria-hidden="true"></span>
+                <h4 class="home-title my-3">Temporary/Contract Placements</h4>
+                        <p>We supply top quality temporary staff in the shortest possible time. Our rich database has an..</p>
+                <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+            </div>
+        </div>
+       
+            <div class="col-md-4 my-4 home-grid">
+                    <div class="fag-serv-margins fag-serv-bg">
+                    <span class="fa fa-thumb-tack" aria-hidden="true"></span>
+                    <h4 class="home-title my-3">Client Relationship Management</h4>
+                    <p>In this process, we have two clients-employer and potential candidates. With the employer, we use a </p>
+                    <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                </div>
+            </div>
+           
+                <div class="col-md-4 my-4 home-grid">
+                        <div class="fag-serv-margins fag-serv-bg">
+                    <span class="fa fa-external-link" aria-hidden="true"></span>
+                 
+                    <h4 class="home-title my-3">Executive Search</h4>
+                    <p>Forum Assignment Group has an Executive Search arm that headhunt for Executive Level roles and..</p>
+                    <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                </div>
+            </div>
+            
+                <div class="col-md-4 my-4 home-grid">
+                        <div class="fag-serv-margins fag-serv-bg">
+                    <span class="fa fa-cog" aria-hidden="true"></span>
+                    <h4 class="home-title my-3">Engineering Recruitment</h4>
+                    <p>Our Engineering Desk has a team of experts that understand the needs of the industry. They provide </p>
+                    <a href="/corporate/our-expertise/" class="btn wthree-bnr-btn">Read more</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    </div>
+{% endblock %}
